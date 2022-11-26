@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+}
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 8px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4em;
+    background-color: #1f2937 ;
+}
