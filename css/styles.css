@@ -10,10 +10,57 @@ ul {
     list-style: none;
     gap: 8px;
 }
+h1{
+    padding: 0%;
+    margin: 0%;
+}
+.hero {
+    flex: auto;
+}
 .header {
+    display: flex;
+    flex-direction: row;
+}
+.break {
+    flex: auto;
+    width: 100px;
+    background-color: #1f2937 ;
+    flex-grow: 0;
+}
+.title {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 4em;
     background-color: #1f2937 ;
+}
+.secondary {
+    font-size: 18px;
+    color: #f9faf8;
+}
+.hText, .hAwsome
+{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.cool{
+    display: flex;
+    background-color: #1f2937;
+    padding-top: 70px;
+}
+.hAwsome {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.h {
+    display: flex;
+    flex: auto;
+    padding-left: 50px;
+    flex-shrink: 0;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 0;
 }
