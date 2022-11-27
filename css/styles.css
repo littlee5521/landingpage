@@ -84,3 +84,23 @@ a {
 .design  {
     width: 500px;
 }
+.topi{
+display: flex;
+}
+.bottomi{
+display: flex;
+flex: 1;
+justify-content: space-between;
+}
+.info {
+    display: flex;
+    justify-content: center;
+}
+.info1 {
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+}
+.infob {
+    background-color: white;
+}
