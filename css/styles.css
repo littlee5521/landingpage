@@ -86,21 +86,53 @@ a {
 }
 .topi{
 display: flex;
+justify-content: center;
+padding: 20px 0px;
+font-size: 36px;
+font-weight: bolder;
+color: #1f2937;
 }
 .bottomi{
 display: flex;
 flex: 1;
-justify-content: space-between;
+justify-content: space-evenly;
 }
 .info {
     display: flex;
     justify-content: center;
+    padding: 55px 0;
 }
 .info1 {
     flex: auto;
     justify-content: center;
     align-items: center;
 }
+.stuff {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 .infob {
     background-color: white;
+}
+.small {
+    flex: auto;
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+.holder {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic
 }
