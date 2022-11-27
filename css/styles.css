@@ -14,8 +14,14 @@ h1{
     padding: 0%;
     margin: 0%;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
 .hero {
     flex: auto;
+    display: flex;
+    flex-direction: column;
 }
 .header {
     display: flex;
@@ -23,7 +29,7 @@ h1{
 }
 .break {
     flex: auto;
-    width: 100px;
+    width: 200px;
     background-color: #1f2937 ;
     flex-grow: 0;
 }
@@ -47,6 +53,7 @@ h1{
     display: flex;
     background-color: #1f2937;
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 .hAwsome {
     font-size: 48px;
@@ -63,4 +70,17 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;
     flex-grow: 0;
+}
+.signUp {
+    flex: auto; 
+    width: 100px;
+    height: auto;
+    background-color: #3882f6;
+    color: white;
+    border-style: none;
+    border-radius: 5%;
+    flex-grow: 0;
+}
+.design  {
+    width: 500px;
 }
